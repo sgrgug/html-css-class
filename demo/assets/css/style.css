@@ -1,0 +1,45 @@
+/* .div1 {
+    background-color: red;
+    height: 100px;
+}
+
+.div2 {
+    background-color: blue;
+} */
+
+.div1 .div2 {
+    background-color: #ff0000;
+}
+.div1 .div2 p {
+    background-color: green;
+}
+
+.hover {
+    background-color: red;
+}
+
+.hover:hover {
+    background-color: blue;
+}
+
+a:active {
+    background-color: pink;
+}
+
+.hex {
+    background-image: url('/assets/images/news.png');
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+button {
+    /* background: red; */
+    background-color: red;
+    border: 10px;
+    border-radius: 10px 20px;
+    padding: 10px 50px 80px 100px;
+}
+
+button:hover {
+    background: green;
+}

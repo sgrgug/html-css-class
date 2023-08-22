@@ -1,0 +1,19 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+.container {
+    background-color: green;
+    padding: 1rem;
+    position: sticky;
+    top: 100px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.lorem {
+    height: 10rem;
+}
